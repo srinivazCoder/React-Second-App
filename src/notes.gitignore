@@ -1,0 +1,45 @@
+Initial render and re-render
+---------------------------
+
+Initail render -> react application, the Initail render is the first time that the component tree is render to DOM. also known as "Mouting" the component
+
+Re-renders-> on the other hand, happen when the components state or props change component needs to be update on the DOM to relfect these changes
+            react uses a virtual DOM to optimize the process of updating the actual DOM. the component's state or props. when component state or props change, react will re-render the component to reflect changes
+            -- 
+
+
+There are  a few ways that you can trigger a re-render in the react component
+
+-- By changing the component's state or props. when component state or props change, react will re-render the component to reflect changes
+-- when the parent elements re-renders, event if the component's state or props have not change
+
+
+
+
+# useEffect Basics
+
+useEffect is a hook in react that allows you to perform side effect in the component
+
+some example of side effect are: subscriptions, fetching data, directly updating DOM, event listener and timmers
+
+-useEffect hook
+-accepts two arguments
+-first arguments call back function
+-second arguements dependency array
+- by default runs on each render, (Initail and re-render)
+- CB can not make it promise (so can't make it async)
+-If dependency array empty [] runs only Initail render
+-
+
+
+# Data Fetching
+---------------
+
+- useuly three options
+
+    - loading waiting for data arrive(display loading state)
+    - error - there was an error(display error message)
+    - success receive data(display data)
+
+
+
