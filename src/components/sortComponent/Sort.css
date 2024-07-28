@@ -1,0 +1,17 @@
+.comparisions_swap{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    justify-content: space-around;
+}
+
+.chartContainer{
+    margin: 16px 16px;
+}
+
+.header{
+    font-size: x-large;
+    margin: 8px;
+    font-weight: bold;
+}

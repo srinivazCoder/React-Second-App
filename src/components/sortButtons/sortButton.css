@@ -1,0 +1,49 @@
+.button-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+
+.button-container .btn{
+    font-size: 16px;
+    font-weight: bold !important;
+   
+    border-radius: 0.1rem;
+    padding :4px;
+    cursor: pointer;
+    width: 150px;
+    border:none
+}
+.button-container .selected{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(61, 158, 244, 0.74);
+    
+    border-radius: 0.1rem;
+    padding :4px;
+    cursor: pointer;
+    width: 150px;
+    border:none
+}
+
+.btn:hover{
+    background-color: #cfcdcd;
+    color:black;
+}
+
+.tomato{
+    background-color: tomato;
+}
+
+.mediumGreen{
+    background-color:  MediumSeaGreen;
+}
+
+.orange {
+    background-color: orange;
+
+}
+

@@ -1,15 +1,16 @@
-import NavBar from "./NavBar" 
-import OtherInputs from "./OtherInputs"
+
+import './App.css';
+
+import Sort from './components/sortComponent/Sort';
 
 function App() {
-  // const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <div className='root'>
-        <NavBar /> 
-        <OtherInputs className="otherInputs"/>
-      </div>
+
+      <Sort />
+     
     </>
   )
 }

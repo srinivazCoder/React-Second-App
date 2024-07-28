@@ -1,0 +1,34 @@
+.barChart {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width:500px;
+    margin: auto;
+
+}
+
+.bar {
+    width: 30px;
+    margin: 3px;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 1s all ease;
+}
+
+.barColor {
+    background-color: blue;
+}
+
+.swapbar {
+    background-color: rgb(209, 105, 105);
+    /* transition: 1s; */
+}
+
+.sortedBar {
+    background-color: green;
+
+}
